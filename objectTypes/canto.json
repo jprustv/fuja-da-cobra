@@ -1,0 +1,63 @@
+{
+	"name": "canto",
+	"plugin-id": "Sprite",
+	"sid": 952699574775189,
+	"isGlobal": true,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Sólido",
+			"sid": 329849911966745
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 80,
+						"height": 854,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2612709,
+						"collisionPoly": {
+							"points": [
+								0.0375,
+								0.00351288056206089,
+								0.5,
+								0.00351288056206089,
+								0.95,
+								0.00351288056206089,
+								0.9875,
+								0.5,
+								0.95,
+								0.9953161592505855,
+								0.5,
+								0.9953161592505855,
+								0.0375,
+								0.9953161592505855,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 219432880049623,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

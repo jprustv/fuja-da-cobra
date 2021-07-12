@@ -1,0 +1,20 @@
+{
+	"name": "particulaspowerup",
+	"plugin-id": "Particles",
+	"sid": 868770887925328,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"image": {
+		"width": 162,
+		"height": 164,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "",
+		"exportFormat": "png",
+		"exportQuality": 0.8,
+		"imageSpriteId": 3180242,
+		"useCollisionPoly": true
+	}
+}

@@ -1,0 +1,63 @@
+{
+	"name": "powerup",
+	"plugin-id": "Sprite",
+	"sid": 208964282922059,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Bullet",
+			"name": "Projétil",
+			"sid": 259058266934076
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 162,
+						"height": 164,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7944100,
+						"collisionPoly": {
+							"points": [
+								0.22839506172839497,
+								0.2896341463414634,
+								0.3672839506172836,
+								0.018292682926829174,
+								0.9876543209876547,
+								0.10060975609756095,
+								0.9259259259259263,
+								0.5030487804878049,
+								0.8148148148148151,
+								0.8902439024390245,
+								0.3888888888888885,
+								0.9878048780487805,
+								0.015432098765432098,
+								0.9024390243902439,
+								0.1481481481481481,
+								0.49390243902439024
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 873208622107117,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
