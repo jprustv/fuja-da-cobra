@@ -362,15 +362,6 @@
 					"sid": 585188330719827
 				},
 				{
-					"id": "add-to-eventvar",
-					"objectClass": "System",
-					"sid": 792229809323853,
-					"parameters": {
-						"variable": "pontos",
-						"value": "1"
-					}
-				},
-				{
 					"id": "play",
 					"objectClass": "Áudio",
 					"sid": 892445393286548,
@@ -379,6 +370,15 @@
 						"loop": "not-looping",
 						"volume": "0",
 						"tag-optional": "\"\""
+					}
+				},
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 242395815795343,
+					"parameters": {
+						"variable": "pontos",
+						"value": "round(pontos + dificuldade)"
 					}
 				}
 			],
@@ -621,12 +621,12 @@
 					}
 				},
 				{
-					"id": "add-to-eventvar",
+					"id": "set-eventvar-value",
 					"objectClass": "System",
-					"sid": 432115644007204,
+					"sid": 131228713195232,
 					"parameters": {
 						"variable": "pontos",
-						"value": "1"
+						"value": "round(pontos + dificuldade)"
 					}
 				}
 			],
